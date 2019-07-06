@@ -1,0 +1,30 @@
+body {
+	margin: 5% 10%;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	font-family: 'Helvetica Neue Light';
+}
+
+p {
+	font-family: 'Helvetica Neue Light';
+	line-height: 1.5em;
+}
+
+code {
+	color: #222;
+	background-color: #ddd;
+	border: solid 1px #aaa;
+	padding: 10px;
+	display: block;
+	font-family: 'Menlo';
+	font-size: small;
+	cursor: default;
+}
+
+code:before {
+	content: '>';
+	padding-right: 5px;
+	color: #aaa;
+}
