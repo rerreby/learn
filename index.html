@@ -4,11 +4,32 @@
 	<meta charset="utf-8" />
 	<title>Learning project</title>
 	<link rel="stylesheet" href="style.css" />
+<script>
+window.onload = function() 
+{
+	// TODO: Stylesh it even worse
+	var btn = document.getElementsByTagName('button')[0];
+	if (btn)
+	btn.onclick = function() {
+		document.getElementById('buttonMessage').innerHTML = 'You have pressed the button. Is this not amazing?';
+		
+		/*
+			TODO: Add hiding of button
+		*/
+	}
+}
+</script>
 </head>
 <body>
+	<!--
+		TODO Help me please
+	-->
 	<h1>First learning project which developed with Git</h1>
 	<h2>How to open port 443 on Windows</h2>
 	<p>This is my first learniing project which was created by TextMate editor and version control system Git. It sourced on a GitHub.com and will be updating as long as it takes to learn</p>
 	<code>git init &quot;default project&quot;</code>
+	<p>Please press the button to get an experience of using it</p>
+	<button>Click me, please</button>
+	<p id="buttonMessage"></p>
 </body>
 </html>
