@@ -4,11 +4,21 @@
 	<meta charset="utf-8" />
 	<title>Learning project</title>
 	<link rel="stylesheet" href="style.css" />
+<script>
+window.onload = function() {
+	var btn = document.getElementsByTagName('button')[0];
+	if (btn)
+	btn.onclick = function() {
+		alert('You pressed the button');
+	}
+}
+</script>
 </head>
 <body>
 	<h1>First learning project which developed with Git</h1>
 	<h2>How to open port 443 on Windows</h2>
 	<p>This is my first learniing project which was created by TextMate editor and version control system Git. It sourced on a GitHub.com and will be updating as long as it takes to learn</p>
 	<code>git init &quot;default project&quot;</code>
+	<button>Click me</button>
 </body>
 </html>
