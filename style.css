@@ -28,3 +28,14 @@ code:before {
 	padding-right: 5px;
 	color: #aaa;
 }
+
+
+button {
+	/*
+		TODO Styleze it more 
+	*/
+	color: white;
+	background-color: blue;
+	border: solid 1px blue;
+	padding: 5px;
+}
